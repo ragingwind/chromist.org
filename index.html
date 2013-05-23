@@ -1,55 +1,63 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
+<article>
+  <header>
+  </header>
+  <section>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Chromist.org : Chromist Homepage" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+{% capture homepage %}
+{% include chromist.org.wiki/Homepage.md %}
+{% endcapture %}
+{{ homepage | markdownify }}
 
-    <title>Chromist.org</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/chromist/chromist.org">View on GitHub</a>
-
-          <h1 id="project_title">Chromist.org</h1>
-          <h2 id="project_tagline">Chromist Homepage</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/chromist/chromist.org/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/chromist/chromist.org/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+    <h2 class="hero-title">Examples</h2>
+    <div class="row features">
+      <ul class="span5">
+        <li>
+          <i class="icon-star"></i> <strong>Omnibox</strong> — Show you how to use omnibox.<p></p>
+        </li>
+        <li>
+          <i class="icon-tasks"></i> <strong>Pane window</strong> — Let's go to pane window<p></p>
+        </li>
+      </ul>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>CHROMIST</h1>
-
-<p>We're professional for chrome applications.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <h2 class="hero-title">Chrome Extensions</h2>
+    <div class="row features">
+      <ul class="span5">
+        <li>
+          <i class="icon-refresh"></i> <strong>Dictionary</strong><p></p>
+        </li>
+        <li>
+          <i class="icon-cog"></i> <strong>Clipper</strong><p></p>
+        </li>
+        <li>
+          <i class="icon-upload"></i> <strong>Google Shortern</strong><p></p>
+        </li>
+      </ul>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Chromist.org maintained by <a href="https://github.com/chromist">chromist</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <h2 class="hero-title">Chrome Packaged Apps</h2>
+    <div class="row features">
+      <ul class="span5">
+        <li>
+          <i class="icon-picture"></i> <strong>Picture Browser</strong><p></p>
+        </li>
+        <li>
+          <i class="icon-inbox"></i> <strong>GBox</strong><p></p>
+        </li>
+        <li>
+          <i class="icon-ok"></i> <strong>Github Issues</strong><p></p>
+        </li>
+      </ul>
     </div>
 
-    
-
-  </body>
-</html>
+  </section>
+  <hr>
+  <section>
+    <h2>About</h2>
+    <p class="credits">Chomist by <a href="http://github.com/ragingwind">Jimmy Moon (ragingwind)</a></p>
+  </section>
+</article>
