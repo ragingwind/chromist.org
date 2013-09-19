@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = git@github.com:chromist/chromist.org.git
+  branch = gh-pages
