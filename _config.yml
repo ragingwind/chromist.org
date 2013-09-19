@@ -6,13 +6,13 @@
 # Use _config.build.yml to override these settings on `grunt build`.
 
 name: chromist
-description: A description for your blog
+description:
 url: http://chromist.org
 
 author:
   name: ragingwind
   email: ragingwind@gmail.com
-  github:
+  github: http://github.com/chromist
   twitter:
 
 # Exclude directories and/or files from the conversion.
