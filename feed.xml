@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>chromist</title>
+		<description></description>
+		<link>http://chromist.org</link>
+		<atom:link href="http://chromist.org/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello!</title>
+				<description>&lt;h1&gt;&amp;#39;Allo, &amp;#39;Allo!&lt;/h1&gt;
+
+&lt;p&gt;You now have&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jekyll&lt;/li&gt;
+&lt;li&gt;Sass and Compass&lt;/li&gt;
+&lt;li&gt;Coffeescript tools&lt;/li&gt;
+&lt;li&gt;redcarpet markdown parser and Pygments highlighter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;installed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enjoy coding!&lt;/strong&gt;&lt;/p&gt;
+</description>
+				<pubDate>Mon, 16 Sep 2013 00:00:00 +0900</pubDate>
+				<link>http://chromist.org/chromist/2013/09/16/hello.html</link>
+				<guid isPermaLink="true">http://chromist.org/chromist/2013/09/16/hello.html</guid>
+			</item>
+		
+	</channel>
+</rss>
