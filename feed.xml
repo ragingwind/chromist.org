@@ -7,25 +7,28 @@
 		<atom:link href="http://chromist.org/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Hello!</title>
-				<description>&lt;h1&gt;&amp;#39;Allo, &amp;#39;Allo!&lt;/h1&gt;
+				<title>'Allo, 'Allo! Chrome app launcher</title>
+				<description>&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/support-kms-prod/SNP_BA510FA08FF9303CA6B06D9B9E1D6E07559F_3141450_en_v1&quot; alt=&quot;Chrome app laucher&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;You now have&lt;/p&gt;
+&lt;p&gt;Chrome apps 를 Chrome book(OS) 에서 처럼 별도의 Launcher 를 공개&lt;sup id=&quot;fnref:0&quot;&gt;&lt;a href=&quot;#fn:0&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;했습니다. 보통 Chrome browser 에서 내부 Tab 을 이용해서 Chrome app 을 구동하는 것과는 달리 Chrome book(OS) 에서 처럼 Launcher 를 통해서 바로 실행할 수 있습니다. 현재는 Windows 만을 지원하지만 다른 OS&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; 들도 곧 지원할 예정이라고 합니다. Chrome apps 에서는 지속적으로 Hardware API, Work Offline 그리고 Chrome Less&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 를 위한 기능들을 추가 해왔는데요, 이제 유저들이 Chrome app launcher 를 사용하는 OS 에 설치한다면 Chrome book(OS) 와 동일한 경험을 가지고 Chrome app 들을 사용할 수 있게 되었습니다.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Jekyll&lt;/li&gt;
-&lt;li&gt;Sass and Compass&lt;/li&gt;
-&lt;li&gt;Coffeescript tools&lt;/li&gt;
-&lt;li&gt;redcarpet markdown parser and Pygments highlighter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;installed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Enjoy coding!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:0&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://goo.gl/3xzB9F&quot;&gt;Google Chrome Blog: A new breed of Chrome apps&lt;/a&gt; &lt;a href=&quot;#fnref:0&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Mac, Linux &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Chrome app 이 실행되는 기본 형태 주소창을 가진 기존 Chrome browser 안에서 실행되는 Webapp 과는 구분 되는 것으로 별도의 Window 를 가진다. 예를 들면 &lt;a href=&quot;http://goo.gl/V1ciT&quot;&gt;Text&lt;/a&gt; 있다. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
 				<pubDate>Mon, 16 Sep 2013 00:00:00 +0900</pubDate>
-				<link>http://chromist.org/chromist/2013/09/16/hello.html</link>
-				<guid isPermaLink="true">http://chromist.org/chromist/2013/09/16/hello.html</guid>
+				<link>http://chromist.org/chrome/chromeapp/launcher/2013/09/16/chromeapp-launcher.html</link>
+				<guid isPermaLink="true">http://chromist.org/chrome/chromeapp/launcher/2013/09/16/chromeapp-launcher.html</guid>
 			</item>
 		
 	</channel>
