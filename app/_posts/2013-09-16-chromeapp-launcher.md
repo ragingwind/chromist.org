@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "'Allo, 'Allo! Chrome app launcher"
-author: ragingwind
+post_author: ragingwind
 ---
 
 ![Chrome app laucher](https://storage.googleapis.com/support-kms-prod/SNP_BA510FA08FF9303CA6B06D9B9E1D6E07559F_3141450_en_v1)

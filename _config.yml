@@ -9,11 +9,13 @@ name: chromist
 description:
 url: http://chromist.org
 
-author:
-  name: ragingwind
-  email: ragingwind@gmail.com
-  github: http://github.com/chromist
-  twitter:
+authors:
+  ragingwind:
+    display_name: ragingwind
+    email: ragingwind@gmail.com
+    github: http://github.com/ragingwind
+    twitter: http://twitter.com/ragingwind
+    googleplus: https://plus.google.com/107574899030973045541/about
 
 # Exclude directories and/or files from the conversion.
 # Grunt moves image files and asset directories.
