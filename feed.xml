@@ -7,6 +7,40 @@
 		<atom:link href="http://chromist.org/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>#performaters at SFHTML5</title>
+				<description>&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-B4S81iHufKY/Uh_6RAeCDkI/AAAAAAAAAAA/rp2DzUgAFJU/w940-h235/event_theme.jpg&quot; alt=&quot;#performaters at SFHTML5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;동부시간 기준으로 2013-09-19 에 샌프란시스코에서 &lt;a href=&quot;http://goo.gl/3ku1xm&quot;&gt;#perfmatters&lt;/a&gt; 들이 #sfhtml5 meetup 에서 Web &lt;a href=&quot;http://goo.gl/7Wxf6&quot;&gt;performance - HTML5 Rocks&lt;/a&gt; 에 대한 주제로 발표와 Q&amp;amp;A가 있었습니다. #perfmatters 는 Google IO 2013&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; 에서 부터 꾸준히 Chrome의 DevTools 와 Under the hood 한 내용을 바탕으로 Web performance 를 개선하는 기술들을 지속적으로 소개하고 있는데 이번 #sfhtml5 meetup 에서는 기존의 발표했던 내용을 정리하고 개선한 것을 &lt;a href=&quot;http://goo.gl/sc9ONj&quot;&gt;YouTube&lt;/a&gt; 를 통해서 한자리에서 모두 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;첫번째 세션에서는 Performance of Chrome developer relations&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; 의 팀리더인 &lt;a href=&quot;https://plus.google.com/+ColtMcAnlis&quot;&gt;+Colt McAnlis&lt;/a&gt; 이 Javascript 에서 Manual manage(pooling), counting object 그리고 linear growth 등을 이용한 메모리 관리 방법에 대해서 설명합니다. 특히 &lt;a href=&quot;http://goo.gl/A0I95V&quot;&gt;해적처럼 말하기날&lt;/a&gt; 을 맞아서 해적말투로 진행하는 것이 인상적입니다. 그리고 Chrome DevTools 의 Heap monitoring 과 Adobe 의 gcview 를 사용한 heap tracking 을 소개합니다.&lt;/p&gt;
+
+&lt;p&gt;두번째 세션에서는 다른 Bald 인 &lt;a href=&quot;https://plus.google.com/+aerotwist&quot;&gt;+Paul Lewis&lt;/a&gt; 이 Request / Response 이후 Rendering 과정 &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 과 Style, image, animation 그리고 scrolling 처리에 사용되는 비용들에 대해서 설명하고 개선시키는 방법을 설명합니다. 다음 세번째 세션은 &lt;a href=&quot;https://plus.google.com/+jakearchibald&quot;&gt;+Jake Archibald&lt;/a&gt; 이 브라우저별로 이미지가 다운로드 되는 여러가지 상황을 코드와 W3C 스펙을 곁들여서 재미있게 설명합니다.&lt;/p&gt;
+
+&lt;p&gt;마지막 세션에서는 &lt;a href=&quot;https://plus.google.com/+PaulIrish&quot;&gt;+Paul Irish&lt;/a&gt; 는 이전&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; 부터 계속 보여주던 스타일 대로 이미 구현된 사이트/앱들을 Chrome DevTools 로 Profiling 하고 개선시키는 데모를 보여줍니다. Frame recording 과 Frame chart 그리고 &lt;a href=&quot;http://goo.gl/Z3IXq&quot;&gt;Continuous painting mode&lt;/a&gt; 를 사용해서 Bottle-neck 과 Pain-point 를 찾아내고 &lt;code&gt;translatez hack&lt;/code&gt; 등을 사용하여 성능을 개선시킵니다. 그외에도 여러가지 Profiling 도구를 소개하는데요 로딩이 진행되는 동안 Rendering 된 화면도 캡처해서 보여주는 &lt;a href=&quot;http://goo.gl/bzCd&quot;&gt;WebPagetest&lt;/a&gt; 이 주목할 만 합니다.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://goo.gl/LeYHsn&quot;&gt;#PERFMATTERS at Google IO 2013&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Introduction to Google Developer Relations]( http://goo.gl/sUUL1j ) &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;HTML parsing, DOM tree creation, Recalculate style with css, Rendering DOM tree, vector / bitmat drawing and decode and Layer composite. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://goo.gl/v7CYfm&quot;&gt;Chrome DevTools Timeline’s new Frame Mode - YouTube&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Fri, 20 Sep 2013 00:00:00 +0900</pubDate>
+				<link>http://chromist.org/2013/09/20/perfmatters-at-sfhtml5.html</link>
+				<guid isPermaLink="true">http://chromist.org/2013/09/20/perfmatters-at-sfhtml5.html</guid>
+			</item>
+		
+			<item>
 				<title>'Allo, 'Allo! Chrome app launcher</title>
 				<description>&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/support-kms-prod/SNP_BA510FA08FF9303CA6B06D9B9E1D6E07559F_3141450_en_v1&quot; alt=&quot;Chrome app laucher&quot; /&gt;&lt;/p&gt;
 
