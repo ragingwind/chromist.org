@@ -27,11 +27,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/media/polymer-arch.png&quot; alt=&quot;Polymer Architecture&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Polymer 는 위의 그림과 같이 platform.js, polymer.js (Polymer core), Polymer elements 로 구성되어 있습니다. &lt;a href=&quot;http://goo.gl/Ell1s&quot;&gt;platform.js&lt;/a&gt; 는 현재, 모든 모던 브라우저에서 Web Components 를 모두 지원하지 않기 때문에 모던 브라우저에서 Web Components 를 사용할 수 있도록 해주는 Polyfill 프로젝트 입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.polymer-project.org/polymer.html&quot;&gt;Polymer core&lt;/a&gt; 는 platform.js 를 통해서 Web Components 를 사용하며 Polymer 의 기본적인 사용방법을 제공합니다. &lt;code&gt;polymer-element&lt;/code&gt; 선언하거나 Properties 와 Methods 를 추가할 수 있으며 Element 의 Lifecycle 과 Web Components 이벤트를 제어할 수 있는 방법을 제공합니다.&lt;/p&gt;
-
-&lt;p&gt;마지막으로 Polymer element 는 UI Components 를 포함한 여러가지 응용 element 를 제공합니다.&lt;/p&gt;
+&lt;p&gt;Polymer 는 위의 그림과 같이 platform.js, polymer.js (Polymer core), Polymer elements 로 구성되어 있습니다. &lt;a href=&quot;http://goo.gl/Ell1s&quot;&gt;platform.js&lt;/a&gt; 는 현재, 모든 모던 브라우저에서 Web Components 를 모두 지원하지 않기 때문에 모던 브라우저에서 Web Components 를 사용할 수 있도록 해주는 Polyfill 프로젝트 입니다. &lt;a href=&quot;http://www.polymer-project.org/polymer.html&quot;&gt;Polymer core&lt;/a&gt; 는 platform.js 를 통해서 Web Components 를 사용하며 Polymer 의 기본적인 사용방법을 제공합니다. &lt;code&gt;polymer-element&lt;/code&gt; 선언하거나 Properties 와 Methods 를 추가할 수 있으며 Element 의 Lifecycle 과 Web Components 이벤트를 제어할 수 있는 방법을 제공합니다. 마지막으로 Polymer element 는 UI Components 를 포함한 여러가지 응용 element 를 제공합니다.&lt;/p&gt;
 
 &lt;p&gt;현재 Polymer 는 pre-alpha mode 이며 계속 개발되고 발전하고 있는 중입니다. 표준에 친화적이고 다른 Framework 와 달리 덜 &lt;code&gt;Opinionated&lt;/code&gt; 하면서 강력한 기능과 빠른 개발을 할 수 있는 Framework 입니다. 기대하고 관심을 가져보세요. 더 자세한 사용방법은 다음의 자료를 참고하세요.&lt;/p&gt;
 
