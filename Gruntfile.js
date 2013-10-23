@@ -123,7 +123,7 @@ module.exports = function (grunt) {
         imagesDir: '<%= yeoman.app %>/media',
         javascriptsDir: '<%= yeoman.app %>/js',
         relativeAssets: false,
-        httpImagesPath: '/media',
+        // httpImagesPath: '/media',
         httpGeneratedImagesPath: '/img/generated',
         outputStyle: 'expanded',
         raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n'
@@ -252,7 +252,7 @@ module.exports = function (grunt) {
     imagemin: {
       dist: {
         options: {
-          progressive: true
+          progressive: false
         },
         files: [{
           expand: true,
@@ -415,7 +415,7 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'cssmin',
     'uglify',
-    'imagemin',
+    // 'imagemin',
     'svgmin',
     'rev',
     'usemin',
