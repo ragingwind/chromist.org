@@ -12,7 +12,7 @@ Chromist Monthly Digest 는 [François Beaufort](http://goo.gl/BjqXy9) 을 포�
 
 1. [Minimize button for Window](http://goo.gl/34GqKt): minimize button 이 드디어? #dev, #chromeos
 1. [Multiple profiles on Chrome OS](http://goo.gl/xqZJ8f): `chrome://flags/#enable-multi-profiles` 를 통해서 바로 다른 profile 이 적용 가능합니다. #dev,,#chromeos
-1. [Close windows directly from the Overview mode](http://goo.gl/bXlHna)](http://goo.gl/bXlHna): Overview 모드에서 종료가 이제 바로 종료가 가능합니다.  #dev, #chromeos
+1. [Close windows directly from the Overview mode](http://goo.gl/bXlHna)]: Overview 모드에서 바로 종료가 해졌습니다.  #dev, #chromeos
 1. [CCA (Cordova Chrome App) updated for Chrome Apps on Mobile](http://goo.gl/HI5Mhu): Cordova 를 사용해서 모바일에서 Chrome App 을 만들 수 있는 [CCA](http://goo.gl/nU5O6U) 가 업데이트 되었습니다. #chromemobile
 1. [`chrome.sessions` API](http://goo.gl/pJGYWp): `chrome.sessions` API 에 여러 이벤트들이 추가되어서 tab 의 close 이벤트를 핸들링 할 수 있습니다. #dev
 1. [`chrome.accessibilityFeatures` API](http://goo.gl/iFzYaL): `chrome.accessibilityFeatures` experimental Chrome Extension library 가 추가되었습니다. 개별적인 Accessibility 장치들 (Large cursor, Virtual keyboard) 에 대해서 접근 할 수 있습니다. #dev, #chromeos
