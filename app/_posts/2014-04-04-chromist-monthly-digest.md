@@ -4,6 +4,8 @@ title:  "Chromist Monthly Digest for Chrome Apps"
 post_author: ragingwind
 ---
 
+![Polymer Architecture](/media/monthly-chrome.png)
+
 Chromist Monthly Digest 는 [François Beaufort](http://goo.gl/BjqXy9) 을 포함한 Google Chrome team 이 소개하는 소식과 여러 기술 뉴스 / 블로그를 통해서 전달된 내용중에서 `Chrome Apps / Extensions 개발`에 관련된 소식을 모아서 간단한 코멘트와 함께 전달해 드립니다. 
 
 ### Chrome Apps
@@ -25,7 +27,7 @@ Chromist Monthly Digest 는 [François Beaufort](http://goo.gl/BjqXy9) 을 포�
 1. [Mobile Chrome Apps and Android Wear](http://goo.gl/EE1zaG): Mobile Chrome Apps 에서 `chrome.notifications` API 를 사용하여 Android Wear 와 연동하는 방법입니다. #chromemobile
 1. [Chrome Apps `<webview>` with context menus](http://goo.gl/e2Gth7): `<webview>` 에 `chrome.contextMenus` API 를 이용하여 context menu 를 설정할 수 있습니다. #chromium
 1. [ServiceWorkers internal page](http://goo.gl/gfCxzk): ServiceWorkers 를 위한 `chrome://serviceworker-internals` internal page 가 생겼습니다. `chrome://flags/#enable-service-worker` 를 이용해서 사용가능합니다. #chromium
-1. [Perform a simple search in a Chrome App <webview>](http://goo.gl/OGKbG5): 생성된 `<webview>` 에서 `webview.find` 로 문자열 검색이 가능합니다. #chromium
+1. [Perform a simple search in a Chrome App `<webview>`](http://goo.gl/OGKbG5): 생성된 `<webview>` 에서 `webview.find` 로 문자열 검색이 가능합니다. #chromium
 1. [Handle URLs by Chrome Apps](http://goo.gl/BSrZRr): `url_handlers` 에 URL Pattern 을 등록해서 해당 url 에 접근시 `app.runtime.onLaunched`로 이벤트가 발생해서 추가적인 작업을 할 수 있도록 해줍니다. #chromium
 1. ["always maximized" TouchView](http://goo.gl/bG8u1v): `chrome://flags/#ash-enable-touch-view-testing` 를 사용하면 `<Ctrl>+<Shift>+<Alt>+D` 키를 사용하면 TouchView 를 최대 사이즈로 고정시킬수 있습니다.
 1. [Brand new chrome.i18n API](http://goo.gl/r7Omgi): `chrome.i18n` API 에 `getUILanguage` 가 추가 되었습니다.
@@ -43,7 +45,7 @@ Chromist Monthly Digest 는 [François Beaufort](http://goo.gl/BjqXy9) 을 포�
 1. [Release Polymer Stable release 0.2.2](http://goo.gl/pLaOG8): Polymer 가 0.2.2 로 릴리즈 되었습니다. Shadow DOM Selectos 가 변경되었습니다. HTMLImports 시에 Data URIs 지원 NodeBind 관련 업데이트 등이 있습니다. `Vulcanize` 도 업데이트 되었으니 바로 업데이트 하세요.
 1. [Release prism-js](http://goo.gl/ecw6vc): Code highlighter prismjs 을 위한 Polymer element 입니다.
 1. [jansepar/picturefill](http://goo.gl/4N7whj): [The picture Element](http://goo.gl/jXv27) 의 polyfill 프로젝트입니다. 이제 `<picture>` element 를 사용하세요.
-1. [The +AngularJS  2.0 change detection](http://goo.gl/KCTcEq): Angular.dart 에서 draft 로 구현되었단. AngularJS 2.0 Change detection 이 별도의 프로젝트로 분리되었습니다. 이름은 `watchtower.js` 이고 ES6 으로 작성되고 있습니다.
+1. [The +AngularJS  2.0 change detection](http://goo.gl/KCTcEq): Angular.dart 에서 draft 로 구현되었던 AngularJS 2.0 Change detection 이 별도의 프로젝트로 분리되었습니다. 이름은 `watchtower.js` 이고 ES6 으로 작성되고 있습니다.
 1. [New WebP update 0.4.0](http://goo.gl/suhJma): WebP 가 0.4.0 으로 업데이트 되었습니다. 200% 빠른 인코딩과 25% 빠른 디코딩이 된다고 합니다.
 1. [x-gif A +Polymer element for flexible GIF playback](http://goo.gl/Znmuiv): GIF 를 마음대로 playback 할 수 있는 Polymer element
 
