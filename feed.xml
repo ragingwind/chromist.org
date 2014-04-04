@@ -7,6 +7,77 @@
 		<atom:link href="http://chromist.org/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Chromist Monthly Digest for Chrome Apps</title>
+				<description>&lt;p&gt;Chromist Monthly Digest 는 &lt;a href=&quot;http://goo.gl/BjqXy9&quot;&gt;François Beaufort&lt;/a&gt; 을 포함한 Google Chrome team 이 소개하는 소식과 여러 기술 뉴스 / 블로그를 통해서 전달된 내용중에서 &lt;code&gt;Chrome Apps / Extensions 개발&lt;/code&gt;에 관련된 소식을 모아서 간단한 코멘트와 함께 전달해 드립니다. &lt;/p&gt;
+
+&lt;h3 id=&quot;chrome-apps&quot;&gt;Chrome Apps&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/34GqKt&quot;&gt;Minimize button for Window&lt;/a&gt;: minimize button 이 드디어? #dev, #chromeos&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/xqZJ8f&quot;&gt;Multiple profiles on Chrome OS&lt;/a&gt;: &lt;code&gt;chrome://flags/#enable-multi-profiles&lt;/code&gt; 를 통해서 바로 다른 profile 이 적용 가능합니다. #dev,,#chromeos&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/bXlHna&quot;&gt;Close windows directly from the Overview mode&lt;/a&gt;](http://goo.gl/bXlHna): Overview 모드에서 종료가 이제 바로 종료가 가능합니다.  #dev, #chromeos&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/HI5Mhu&quot;&gt;CCA (Cordova Chrome App) updated for Chrome Apps on Mobile&lt;/a&gt;: Cordova 를 사용해서 모바일에서 Chrome App 을 만들 수 있는 &lt;a href=&quot;http://goo.gl/nU5O6U&quot;&gt;CCA&lt;/a&gt; 가 업데이트 되었습니다. #chromemobile&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/pJGYWp&quot;&gt;&lt;code&gt;chrome.sessions&lt;/code&gt; API&lt;/a&gt;: &lt;code&gt;chrome.sessions&lt;/code&gt; API 에 여러 이벤트들이 추가되어서 tab 의 close 이벤트를 핸들링 할 수 있습니다. #dev&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/iFzYaL&quot;&gt;&lt;code&gt;chrome.accessibilityFeatures&lt;/code&gt; API&lt;/a&gt;: &lt;code&gt;chrome.accessibilityFeatures&lt;/code&gt; experimental Chrome Extension library 가 추가되었습니다. 개별적인 Accessibility 장치들 (Large cursor, Virtual keyboard) 에 대해서 접근 할 수 있습니다. #dev, #chromeos&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/q9YImo&quot;&gt;IME extensions&lt;/a&gt;: &lt;code&gt;&amp;lt;shift&amp;gt;+&amp;lt;space&amp;gt;&lt;/code&gt; 로 IME 변경이 가능합니다. #dev #chromeos&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/sgAaui&quot;&gt;Video Player Chrome App&lt;/a&gt;: 비디오 플레이어가 별도의 Chrome App 으로. #chromeos, #dev&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/j1ZbjK&quot;&gt;Chrome apps/extensions commands global scope&lt;/a&gt;: Chrome apps / extensions 에서 keyboard shortcuts 이 사용 가능해졌습니다. 그래서 Google music mini player 를 포커스를 주지 않아도 제어 가능합니다. #dev&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/4rzkJN&quot;&gt;Chrome App windows bounds API&lt;/a&gt;: inner/outter Bound properties 가 추가되었습니다. window 의 decorations 포함여부가 중요합니다. #dev&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/UYdsBR&quot;&gt;Chrome App NFC Library is now open-source&lt;/a&gt;: &lt;a href=&quot;http://goo.gl/1odqXO&quot;&gt;Chrome App NFC Library&lt;/a&gt; 가 Open source 로 공개되었습니다. 현재 지원되는 장비는 2대 정도이고 &lt;code&gt;chrome.nfc&lt;/code&gt; 로 사용 가능합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/Hp6L7l&quot;&gt;Web Store API to programmatically create, update and publish items in the Web Store&lt;/a&gt;: RESTful API 로  Web Store 를 컨트롤 할 수 있습니다. &lt;a href=&quot;http://goo.gl/3dVfG1&quot;&gt;web-store&lt;/a&gt; 을 참고하세요.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/oLpyb8&quot;&gt;App Info Dialog&lt;/a&gt;: &lt;code&gt;chrome://flags/#enable-app-list-info&lt;/code&gt; 를 통해서 App Info 가 확인 가능해졌습니다. #canary&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/sT7aAU&quot;&gt;chrome.webstore API for inline installation&lt;/a&gt;: &lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; 태그와 &lt;code&gt;chrome.webstore&lt;/code&gt; 를 이용하여 inline 으로 설치가 가능합니다. #chromium&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/EE1zaG&quot;&gt;Mobile Chrome Apps and Android Wear&lt;/a&gt;: Mobile Chrome Apps 에서 &lt;code&gt;chrome.notifications&lt;/code&gt; API 를 사용하여 Android Wear 와 연동하는 방법입니다. #chromemobile&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/e2Gth7&quot;&gt;Chrome Apps &lt;code&gt;&amp;lt;webview&amp;gt;&lt;/code&gt; with context menus&lt;/a&gt;: &lt;code&gt;&amp;lt;webview&amp;gt;&lt;/code&gt; 에 &lt;code&gt;chrome.contextMenus&lt;/code&gt; API 를 이용하여 context menu 를 설정할 수 있습니다. #chromium&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/gfCxzk&quot;&gt;ServiceWorkers internal page&lt;/a&gt;: ServiceWorkers 를 위한 &lt;code&gt;chrome://serviceworker-internals&lt;/code&gt; internal page 가 생겼습니다. &lt;code&gt;chrome://flags/#enable-service-worker&lt;/code&gt; 를 이용해서 사용가능합니다. #chromium&lt;/li&gt;
+  &lt;li&gt;[Perform a simple search in a Chrome App &lt;webview&gt;](http://goo.gl/OGKbG5): 생성된 `&lt;webview&gt;` 에서 `webview.find` 로 문자열 검색이 가능합니다. #chromium&lt;/webview&gt;&lt;/webview&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/BSrZRr&quot;&gt;Handle URLs by Chrome Apps&lt;/a&gt;: &lt;code&gt;url_handlers&lt;/code&gt; 에 URL Pattern 을 등록해서 해당 url 에 접근시 &lt;code&gt;app.runtime.onLaunched&lt;/code&gt;로 이벤트가 발생해서 추가적인 작업을 할 수 있도록 해줍니다. #chromium&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/bG8u1v&quot;&gt;“always maximized” TouchView&lt;/a&gt;: &lt;code&gt;chrome://flags/#ash-enable-touch-view-testing&lt;/code&gt; 를 사용하면 &lt;code&gt;&amp;lt;Ctrl&amp;gt;+&amp;lt;Shift&amp;gt;+&amp;lt;Alt&amp;gt;+D&lt;/code&gt; 키를 사용하면 TouchView 를 최대 사이즈로 고정시킬수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/r7Omgi&quot;&gt;Brand new chrome.i18n API&lt;/a&gt;: &lt;code&gt;chrome.i18n&lt;/code&gt; API 에 &lt;code&gt;getUILanguage&lt;/code&gt; 가 추가 되었습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;devtools&quot;&gt;DevTools&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/AHtOCH&quot;&gt;Error Console has been enabled by default&lt;/a&gt;: chrome://extentions 에서 Installed apps and extensions 의 에러를 볼 수 있습니다. #chromium&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/mzNd9f&quot;&gt;Sublime Text 3 plugins for Chromium development on Mac OSX&lt;/a&gt;: Chromium 을 Sublime Text 3 에서 하고 싶다면&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/DVW5cw&quot;&gt;Grunt 0.4.3 released&lt;/a&gt;: Grunt 0.4.3 이 릴리즈 되었습니다. grunt.util 에서 제공하던 여러 모듈이 이제 각각의 모듈료 존재 합니다. 이전에 사용하던 &lt;code&gt;grunt.util.*&lt;/code&gt; 는 &lt;code&gt;grunt-legacy-util&lt;/code&gt; 로 변경되었습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/wXDrIf&quot;&gt;Debugging Asynchronous JavaScript with Chrome DevTools&lt;/a&gt;: Asynchronous javascript callbacks 의 full call stack 을 볼 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/HsDT67&quot;&gt;JS Live Recompilation while doing breakpoint debugging&lt;/a&gt;: Breakpoint debugging 시에 JS 소스를 바로 수정해서 Recompile 해서 결과를 볼 수 있습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;frameworks--libraries&quot;&gt;Frameworks / Libraries&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/pLaOG8&quot;&gt;Release Polymer Stable release 0.2.2&lt;/a&gt;: Polymer 가 0.2.2 로 릴리즈 되었습니다. Shadow DOM Selectos 가 변경되었습니다. HTMLImports 시에 Data URIs 지원 NodeBind 관련 업데이트 등이 있습니다. &lt;code&gt;Vulcanize&lt;/code&gt; 도 업데이트 되었으니 바로 업데이트 하세요.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/ecw6vc&quot;&gt;Release prism-js&lt;/a&gt;: Code highlighter prismjs 을 위한 Polymer element 입니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/4N7whj&quot;&gt;jansepar/picturefill&lt;/a&gt;: &lt;a href=&quot;http://goo.gl/jXv27&quot;&gt;The picture Element&lt;/a&gt; 의 polyfill 프로젝트입니다. 이제 &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; element 를 사용하세요.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/KCTcEq&quot;&gt;The +AngularJS  2.0 change detection&lt;/a&gt;: Angular.dart 에서 draft 로 구현되었단. AngularJS 2.0 Change detection 이 별도의 프로젝트로 분리되었습니다. 이름은 &lt;code&gt;watchtower.js&lt;/code&gt; 이고 ES6 으로 작성되고 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/suhJma&quot;&gt;New WebP update 0.4.0&lt;/a&gt;: WebP 가 0.4.0 으로 업데이트 되었습니다. 200% 빠른 인코딩과 25% 빠른 디코딩이 된다고 합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/Znmuiv&quot;&gt;x-gif A +Polymer element for flexible GIF playback&lt;/a&gt;: GIF 를 마음대로 playback 할 수 있는 Polymer element&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/A7XiV6&quot;&gt;V8 hopes to ship Object.observe()&lt;/a&gt;: &lt;code&gt;Object.observe()&lt;/code&gt; 가 V8 에 land 될 예정입니다. 관련해서 여러 자료들을 먼저 살펴보세요. &lt;code&gt;Object.observe()&lt;/code&gt; 는 Webapp 구조에 많은 변화를 줄 것입니다.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://goo.gl/V9xnzu&quot;&gt;Issue 2409 - v8 - Implement Object.observe - V8 JavaScript Engine - Google Project Hosting&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://goo.gl/eJnZVm&quot;&gt;Polymer/observe-js&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://goo.gl/72Kvz5&quot;&gt;Addy Osmani: Plight Of The Butterfly: Object.observe() – JSConf EU - YouTube&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/l9gYNq&quot;&gt;Are Chromebooks the Future of Computing? I was recently…&lt;/a&gt;: &lt;a href=&quot;http://goo.gl/MSd5fV&quot;&gt;Joe Marini&lt;/a&gt; 가 Chromebooks 의 역사와 발전에 대해서 쓴 글입니다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/z8aXUK&quot;&gt;Extensions Manifest v3 brainstorming&lt;/a&gt;: Extensions Manifest v3 에 대해서 활발히 논의중입니다. Promise-style API 도 제안되었네요.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/7uCRTG&quot;&gt;Chromium Blog: New monetization and publishing options in the Chrome Web Store&lt;/a&gt;: Packaged Apps 에서 Free-trial, Chrome Web Store Managed In-App Payments 가 제공됩니다.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+				<pubDate>Fri, 04 Apr 2014 00:00:00 +0900</pubDate>
+				<link>http://chromist.org/2014/04/04/chromist-monthly-digest.html</link>
+				<guid isPermaLink="true">http://chromist.org/2014/04/04/chromist-monthly-digest.html</guid>
+			</item>
+		
+			<item>
 				<title>Poly, Poly, Polymer - Short introduction</title>
 				<description>&lt;p&gt;&lt;img src=&quot;http://www.polymer-project.org/images/logos/webcomponents.png&quot; alt=&quot;Web Components Logo&quot; /&gt;&lt;/p&gt;
 
