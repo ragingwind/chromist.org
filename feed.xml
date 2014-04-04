@@ -17,7 +17,7 @@
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;http://goo.gl/34GqKt&quot;&gt;Minimize button for Window&lt;/a&gt;: minimize button 이 드디어? #dev, #chromeos&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://goo.gl/xqZJ8f&quot;&gt;Multiple profiles on Chrome OS&lt;/a&gt;: &lt;code&gt;chrome://flags/#enable-multi-profiles&lt;/code&gt; 를 통해서 바로 다른 profile 이 적용 가능합니다. #dev,,#chromeos&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://goo.gl/bXlHna&quot;&gt;Close windows directly from the Overview mode&lt;/a&gt;](http://goo.gl/bXlHna): Overview 모드에서 종료가 이제 바로 종료가 가능합니다.  #dev, #chromeos&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goo.gl/bXlHna&quot;&gt;Close windows directly from the Overview mode&lt;/a&gt;]: Overview 모드에서 바로 종료가 해졌습니다.  #dev, #chromeos&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://goo.gl/HI5Mhu&quot;&gt;CCA (Cordova Chrome App) updated for Chrome Apps on Mobile&lt;/a&gt;: Cordova 를 사용해서 모바일에서 Chrome App 을 만들 수 있는 &lt;a href=&quot;http://goo.gl/nU5O6U&quot;&gt;CCA&lt;/a&gt; 가 업데이트 되었습니다. #chromemobile&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://goo.gl/pJGYWp&quot;&gt;&lt;code&gt;chrome.sessions&lt;/code&gt; API&lt;/a&gt;: &lt;code&gt;chrome.sessions&lt;/code&gt; API 에 여러 이벤트들이 추가되어서 tab 의 close 이벤트를 핸들링 할 수 있습니다. #dev&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://goo.gl/iFzYaL&quot;&gt;&lt;code&gt;chrome.accessibilityFeatures&lt;/code&gt; API&lt;/a&gt;: &lt;code&gt;chrome.accessibilityFeatures&lt;/code&gt; experimental Chrome Extension library 가 추가되었습니다. 개별적인 Accessibility 장치들 (Large cursor, Virtual keyboard) 에 대해서 접근 할 수 있습니다. #dev, #chromeos&lt;/li&gt;
