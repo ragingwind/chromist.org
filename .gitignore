@@ -5,3 +5,4 @@ _includes
 dist
 .jekyll
 .tmp
+.sass-cache
