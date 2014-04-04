@@ -370,6 +370,16 @@ module.exports = function (grunt) {
         'coffee:dist',
         'copy:dist'
       ]
+    },
+    buildcontrol: {
+      dist: {
+        options: {
+          remote: 'git@github.com:yeoman/yeoman.io.git',
+          branch: 'gh-pages',
+          commit: true,
+          push: true
+        }
+      }
     }
   });
 
@@ -421,6 +431,13 @@ module.exports = function (grunt) {
     'usemin',
     'htmlmin'
     ]);
+
+  grunt.registerTask('deploy', [
+    'check',
+    'test',
+    'build',
+    'buildcontrol'
+  ]);
 
   grunt.registerTask('default', [
     'check',
