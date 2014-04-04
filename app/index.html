@@ -2,11 +2,10 @@
 layout: default
 title: Chromist — People who play the chrome
 ---
-
 <div id="feeds">
   {% for post in site.posts %}
   {% assign author = site.authors[post.post_author] %}
-  <div class="feeds">
+  <div class="post">
     <h2>{{ post.title }}<span><sub class="feedurl"></h2>
     <div>
       <p>
