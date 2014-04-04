@@ -34,9 +34,10 @@ img {
 
 h1 {
   font-size: 320%;
-font-weight: normal;
-line-height: 130%;
+  font-weight: normal;
+  line-height: 130%;
 }
+
 #topnav {
   background-color: white;
   border-bottom: 1px solid #F5F5F5;
@@ -130,6 +131,12 @@ line-height: 130%;
   margin-bottom:2px;
 }
 
+.feeds h3 {
+  font-weight: normal;
+  line-height: 100%;
+  margin-bottom:2px;
+}
+
 .footer .desc {
   color: #666;
   margin: 0;
@@ -144,4 +151,20 @@ line-height: 130%;
 .feeds img {
   max-width:100%;
   max-height:100%
+}
+
+ol li {
+  margin-top:0.1em;
+  padding-bottom:0;
+}
+
+li code {
+  margin: 0;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  max-width: 100%;
+  display: inline-block;
+  overflow: auto;
+  vertical-align: middle;
 }
