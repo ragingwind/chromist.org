@@ -374,7 +374,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'git@github.com:yeoman/yeoman.io.git',
+          remote: 'git@github.com:chromist/chromist.org.git',
           branch: 'gh-pages',
           commit: true,
           push: true
